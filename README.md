@@ -1,6 +1,6 @@
 # Node MCU LED Mobile App
 
-This project is an Android application that toggles an LED on and off. Each tap on the LED sends an HTTP request to a web server with the LED state (`ON` or `OFF`).
+This project is an Progressive Web Application for mobile devices (Andorid and iOS) that toggles an LED on and off. Each tap on the LED sends an HTTP request to a web server with the LED state (`ON` or `OFF`).
 
 ## Features
 - Single screen with an LED toggle.
@@ -12,7 +12,7 @@ This project is an Android application that toggles an LED on and off. Each tap 
 3. Follow the instructions to build and run the application.
 
 ## Requirements
-- Node.js 18+
+- Node.js 20+
 - React Native CLI
 
 ## License
