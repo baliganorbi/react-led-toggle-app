@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "LED Toogle",
+  "name": "LED Toogle App",
+  "description": "A simple app to toggle LED lights.",
   "icons": [
     {
       "src": "favicon.ico",
