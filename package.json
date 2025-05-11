@@ -1,5 +1,5 @@
 {
-  "name": "node-mcu-led-mobile-app",
+  "name": "react-led-toggle-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
