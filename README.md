@@ -1,4 +1,4 @@
-# LED Toogle App
+# LED Toggle App
 
 This project is a Progressive Web Application for mobile devices (Android and iOS) that toggles an LED on and off. Each tap on the LED sends an HTTP request to a web server with the LED state (`ON` or `OFF`).
 

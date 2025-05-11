@@ -1,6 +1,6 @@
 {
-  "short_name": "LED Toogle",
-  "name": "LED Toogle App",
+  "short_name": "LED Toggle",
+  "name": "LED Toggle App",
   "description": "A simple app to toggle LED lights.",
   "icons": [
     {
