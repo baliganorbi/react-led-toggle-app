@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   const [isLedOn, setIsLedOn] = useState(false);
-  const [serverUrl, setServerUrl] = useState('http://192.168.111.192');
+  const [serverUrl, setServerUrl] = useState('http://192.168.111.196');
 
   const toggleLed = async () => {
     const newState = !isLedOn;
@@ -15,11 +15,7 @@ function App() {
 
     try {
       const response = await fetch(url, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ state: newState ? 'ON' : 'OFF' }),
+        method: 'GET',
       });
 
       if (!response.ok) {
